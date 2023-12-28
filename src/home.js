@@ -54,7 +54,7 @@ function Home(){
                 <p className='w-80 p-2'>OnePlus Nord CE 3 Lite 5G (Pastel Lime, 8GB RAM, 128GB Storage)</p>
                 <button className='p-2 bg-black text-white ml-2 w-36 mt-7'>Shop Now</button>
             </div>
-            <div className='max-[1024px]:hidden'>
+            <div className='max-[784px]:block max-[1024px]:hidden'>
                 <img src="/BrandMob/61QRgOgBx0L._SL1500_.jpg" alt="1" className='w-72 h-72'/>
                 <p className='w-80 p-2'>OnePlus Nord CE 3 Lite 5G (Pastel Lime, 8GB RAM, 128GB Storage)</p>
                 <button className='p-2 bg-black text-white ml-2 w-36 mt-7'>Shop Now</button>
@@ -90,7 +90,7 @@ function Home(){
                 <p className='w-80 p-2'>OnePlus Nord CE 3 Lite 5G (Pastel Lime, 8GB RAM, 128GB Storage)</p>
                 <button className='p-2 bg-black text-white ml-2 w-36 mt-7'>Shop Now</button>
             </div>
-            <div className='max-[1024px]:hidden'>
+            <div className='max-[784px]:block max-[1024px]:hidden'>
                 <img src="/BrandMob/61QRgOgBx0L._SL1500_.jpg" alt="1" className='w-72 h-72 max-[1024px]:hidden' />
                 <p className='w-80 p-2'>OnePlus Nord CE 3 Lite 5G (Pastel Lime, 8GB RAM, 128GB Storage)</p>
                 <button className='p-2 bg-black text-white ml-2 w-36 mt-7'>Shop Now</button>
