@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Inria Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: #F6F6F6;
+    width: 100%;
+    height: 100px;
+}
+.menuPhone{
+    display: none;
+}
+.links{
+    margin-left: 100px;
+    align-items: center;
+    width: 380px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    color: #787878;
+    margin-left: 78px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+}
+
+a{
+    color: #787878;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Inria Sans', sans-serif;
+    text-decoration: none;
+    /* background-color: rgb(224, 224, 224); */
+    width: 106px;
+    /* color: #F6F6F6; */
+}
+.profile{
+    margin-left: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LogIn{
+    /* margin-top: 107px; */
+    /* padding-top: 9px;
+    width: 137px;
+    height: 35px; */
+    padding: 5px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+/* svg {
+    padding-right: 13px;
+} */
+.Account{
+    margin-top: -9px;
+    width: 45px;
+    height: 45px;
+}
+.search{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+@media only screen and (max-width: 430px) and (max-height: 932px) {
+    body{
+        font-size: 10px;
+    }
+    nav{
+
+        height: 50px;
+        justify-content: space-between;
+    }
+    div.menuPhone{
+        margin-left: 10px;
+        display: block;
+        width: 30px;
+        height: 30px;
+        /* background-color: aqua; */
+    }
+    .name{
+        font-size: 17px;
+        margin-left: 36px;
+    }
+    .profile{
+        margin-left: 0;
+    }
+    .search {
+        width: 14px;
+        height: 14px;
+        margin-right: 20px;
+    }
+    a {
+        color: #787878;
+        font-size: 10px;
+        text-align: center;
+        font-family: 'Inria Sans', sans-serif;
+        text-decoration: none;
+        /* background-color: rgb(224, 224, 224); */
+        width: 52px;
+        /* color: #F6F6F6; */
+    }
+    .Account {
+        margin-top: -5px;
+        margin-right: 12px;
+        width: 28px;
+        height: 28px;
+    }
+    .Bag{
+        margin-top: 1px;
+        margin-right: 33px;
+        width: 19px;
+        height: 19px;
+    }
+    .LogIn{
+        display: none;
+    }
+    .links {
+        margin-left: 11px;
+        align-items: center;
+        width: 380px;
+        /* background-color: aqua; */
+        display: none;
+        justify-content: space-between;
+    }
+}

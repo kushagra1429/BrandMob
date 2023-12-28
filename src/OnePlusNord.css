@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Inria Sans', sans-serif;
+}
+.imageOnePlusNord img{
+    width: 400px;
+    height: 400px;
+    margin-left: -1028px;
+    margin-top: 54px;
+
+}
+.heading{
+    margin-left: -588px;
+    margin-top: 80px;
+    font-size: 30px;
+}
+.des{
+    position: absolute;
+    top: 33%;
+    width: 802px;
+    left: 46%;
+    /* height: 700px; */
+    /* background-color: aliceblue; */
+}
+.shopnow2{
+    margin-top: 25px;
+    padding-top: 15px;
+    margin-left: 20px;
+    width: 187px;
+    height: 51px;
+    /* padding: 5px; */
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-bottom: 30px;
+}
+.title{
+    color: #787878;
+    /* margin-bottom: 20px; */
+    /* font-family: 'Inria Sans', sans-serif; */
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.price{
+    font-size: 30px;
+}
+.F{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.descrip{
+    text-align: justify;
+    padding: 20px;
+    font-size: 20px;
+}
+.descrip li{
+    margin-top: 10px;
+}
+.morepro{
+    margin-top: 450px;
+}
+.FP{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.productsO{
+    display: flex;
+
+}
+.Protext{
+    font-size: 15px;
+    margin-left: 40px;
+}
+.ProductsOne img{
+    margin-top: 40px;
+    margin-left: 60px;
+    width: 300px;
+    height: 300px;
+}
+.shopnow1{
+    margin-top: 29px;
+    padding-top: 9px;
+    margin-left: 41px;
+    width: 142px;
+    height: 46px;
+    /* padding: 5px; */
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Inria Sans', sans-serif;
+}
+.Feedback{
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.FeedCard{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(222, 222, 222);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+}
+.Img{
+    margin-top: -7px;
+    margin-bottom: 22px;
+    width: 200px;
+    height: 200px;
+
+}
+.shopnow2{
+    margin-top: 25px;
+    padding-top: 15px;
+    margin-left: 674px;
+    width: 187px;
+    height: 51px;
+    /* padding: 5px; */
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-bottom: 30px;
+}
+.contact{
+    margin-top: 90px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.CU{
+    text-align: center;
+    font-size: 35px;
+}
+input{
+    padding: 8px;
+    width: 500px;
+    height: 30px;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+.send{
+    margin-top: 49px;
+    padding-top: 8px;
+    margin-left: -10px;
+    width: 164px;
+    height: 34px;
+    /* padding: 5px; */
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-bottom: 30px;
+}
