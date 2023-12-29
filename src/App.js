@@ -16,6 +16,8 @@ function App() {
           <Route path='/products' element={<Product/>}></Route>
           <Route path='/contact' element={<ContactUs />}></Route>
           <Route path='/OnePlusNord' element={<OnePlusNord />}></Route>
+          <Route path='/products/OnePlusNord' element={<OnePlusNord />}></Route>
+
         </Routes>
       </Router>
     </>

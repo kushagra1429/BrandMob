@@ -1,6 +1,7 @@
 import React from 'react';
 import "./home.css"
 import HeadBar from './Navbar';
+import { Link } from 'react-router-dom';
 const styles1={
     spantag:{
         color: "rgb(49, 100, 159)",
@@ -67,7 +68,7 @@ function Home(){
                 <div className='flex flex-col w-96 max-[784px]:w-64'>
                     <p className='text-3xl max-[784px]:text-xl'>OnePlus Nord CE 3 Lite 5G (Pastel Lime, 8GB RAM, 128GB Storage)</p>
                     <button className="bg-black text-white text-xl w-52 h-12 border border-white mt-36 max-[784px]:text-lg">ADD TO CART</button>
-                    <button className="bg-white text-black text-xl w-52 h-12 border border-black mt-3 max-[784px]:text-lg">BUY NOW</button>
+                    <Link to="/OnePlusNord"><button className="bg-white text-black text-xl w-52 h-12 border border-black mt-3 max-[784px]:text-lg">BUY NOW</button></Link>
                 </div>
 
             </div>
